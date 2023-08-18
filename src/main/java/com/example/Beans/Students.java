@@ -1,4 +1,10 @@
 package com.example.Beans;
 
-public class Students {
+import java.util.Iterator;
+
+public class Students extends People<Student>{
+    @Override
+    public Iterator<Student> iterator() {
+        return null;
+    }
 }
